@@ -20,7 +20,7 @@ for _ in range(1000):
     })
 
 # Guardar los datos generados en un archivo JSON con codificación UTF-8
-output_path = 'C:/Users/juanc/Documents/ifp/2023-2024/bdd/clientes.json'
+output_path = 'clientes.json'
 with open(output_path, 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
 
